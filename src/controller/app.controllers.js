@@ -1,4 +1,1 @@
-angular.module("myApp.controllers", [
-  "myApp.produto.controller",
-  "myApp.empresa.controller"
-]);
+angular.module("controllers", ["produto.controller", "empresa.controller"]);
